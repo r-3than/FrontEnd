@@ -48,8 +48,10 @@ LED_CHANNEL    = 0       # set to '1' for GPIOs 13, 19, 41, 45 or 53
 strip = Adafruit_NeoPixel(LED_COUNT, LED_PIN, LED_FREQ_HZ, LED_DMA, LED_INVERT, LED_BRIGHTNESS, LED_CHANNEL)
 strip.begin()
 testGrab1 = allAnimations["RainbowAnimation"](strip,"Rainbow",10,10,10)
-testGrab2 = allAnimations["AlternateAnimation"](strip,"Alt1",25,[255,0,0],[0,100,0],0.2)
-testGrab3 = allAnimations["FollowAnimation"](strip,"F",10,(255,255,255),0.000)
+testGrab2 = allAnimations["RainbowAnimation"](strip,"Rainbow2",10,10,-10)
+testGrab3 = allAnimations["RainbowAnimation"](strip,"Rainbow2",10,25,15)
+#testGrab2 = allAnimations["AlternateAnimation"](strip,"Alt1",25,[255,0,0],[0,100,0],0.2)
+#testGrab3 = allAnimations["FollowAnimation"](strip,"F",10,(255,255,255),0.000)
 
 fullAnimation = [testGrab1,testGrab2,testGrab3]
 fullAnimation = Animation.FullAnimation(strip,fullAnimation)
