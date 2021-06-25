@@ -3,7 +3,7 @@ import time
 import numpy as np
 
 class FollowAnimation(Animation):
-    def __init__(self,strip,name,length,color,delay):
+    def __init__(self,strip,name,length,color=[255,255,255],delay=1):
         super().__init__(strip,name,length)
         self.color = np.array(color)
         self.delay = delay

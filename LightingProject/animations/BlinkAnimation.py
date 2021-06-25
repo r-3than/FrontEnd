@@ -2,7 +2,7 @@ from animations.Animation import *
 import time
 
 class BlinkAnimation(Animation):
-    def __init__(self,strip,name,length,color,delay):
+    def __init__(self,strip,name,length,color=[255,255,255],delay=1):
         super().__init__(strip,name,length)
         self.color = color
         self.delay = delay

@@ -2,7 +2,7 @@ from animations.Animation import *
 import time
 
 class AlternateAnimation(Animation):
-    def __init__(self,strip,name,length,color1,color2,delay):
+    def __init__(self,strip,name,length,color1=[0,0,0],color2=[255,255,255],delay=1):
         super().__init__(strip,name,length)
         self.color1 = color1
         self.color2 = color2

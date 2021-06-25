@@ -1,9 +1,4 @@
-import time
 from flask import Flask
-
-
-
-
 from animations.Animation import Animation
 import animations
 from animations.AlternateAnimation import AlternateAnimation
@@ -13,7 +8,7 @@ import argparse
 from functools import lru_cache
 import numpy as np
 import threading 
-import gpiozero , time 
+import gpiozero 
 
 import sys
 from animations import *
@@ -74,6 +69,10 @@ def get_current_time():
 def getanimations():
     return {'animations' : list(allAnimations.keys())}
 
+@app.route('/animations/<name>')
+def getanimation(name):
+    temp = allAnimations[name](strip,"Temp",10)
+    return {"animations" : temp.getall()}
 
 @app.route('/getcurrentani')
 def getcurrentani():

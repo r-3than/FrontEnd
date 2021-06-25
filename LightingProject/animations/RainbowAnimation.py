@@ -22,7 +22,7 @@ def rainbowFade(val):
 
 
 class RainbowAnimation(Animation):
-    def __init__(self,strip,name,length,variance,speed):
+    def __init__(self,strip,name,length,variance=10,speed=10):
         super().__init__(strip,name,length)
         self.variance = variance
         self.speed = speed
