@@ -30,8 +30,6 @@ for item in AnimationModules:
 
 
 print(allAnimations)
-
-print(json.dumps(list(allAnimations.keys())))
 #from animations.rainbowFade import RainbowAnimation
 #from animations.blink import BlinkAnimation
 
