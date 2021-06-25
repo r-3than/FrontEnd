@@ -1,4 +1,5 @@
 from flask import Flask
+from flask import request
 from animations.Animation import Animation
 import animations
 from animations.AlternateAnimation import AlternateAnimation
@@ -69,9 +70,15 @@ def get_current_time():
 def getanimations():
     return {'animations' : list(allAnimations.keys())}
 
+@app.route("/addanimation", methods=["POST"])
+def login():
+    aniName = request.json.get("aniName", None)
+    params = request.json.get("params", None) #name length args
+
+
 @app.route('/animations/<name>')
 def getanimation(name):
-    temp = allAnimations[name](strip,"Temp",10)
+    temp = allAnimations[name](strip,name,10)
     return {"animations" : temp.getall()}
 
 @app.route('/getcurrentani')
