@@ -67,9 +67,14 @@ def drawThread():
 
 worker = threading.Thread(target=drawThread).start()
 app = Flask(__name__)
+
 @app.route('/time')
 def get_current_time():
     return {'time': time.time()}
+
+@app.route('/getanimations')
+def getanimations():
+    return {'animations' : allAnimations.keys() }
 
 @app.route('/toggle')
 def toggler():
