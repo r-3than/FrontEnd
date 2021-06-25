@@ -13,7 +13,7 @@ import argparse
 from functools import lru_cache
 import numpy as np
 import threading 
-import gpiozero , time
+import gpiozero , time ,json
 
 import sys
 from animations import *
@@ -74,8 +74,7 @@ def get_current_time():
 
 @app.route('/getanimations')
 def getanimations():
-    return {'animations' : allAnimations.keys() }
-
+    return {'animations' : json.dumps(allAnimations)}
 @app.route('/toggle')
 def toggler():
     try:
