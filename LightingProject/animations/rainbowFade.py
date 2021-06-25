@@ -1,4 +1,4 @@
-from animations.Ani import *
+from animations.Animation import *
 from functools import lru_cache
 import time
 
