@@ -58,12 +58,13 @@ Inp = gpiozero.Button(23)
 Inp.when_pressed =fullAnimation.flip
 
 def drawThread():
+    print("Started playing")
     while True:
         fullAnimation.display()
 
 
 worker = threading.Thread(target=drawThread).start()
-
+app = Flask(__name__)
 @app.route('/time')
 def get_current_time():
     return {'time': time.time()}
@@ -76,5 +77,5 @@ def toggler():
     except:
         return {'success': 'false'}
 
-app = Flask(__name__)
+
 app.run()
