@@ -1,7 +1,7 @@
 import time
 from flask import Flask
 
-app = Flask(__name__)
+
 
 
 from animations.Animation import Animation
@@ -75,3 +75,6 @@ def toggler():
         return {'success': 'true'}
     except:
         return {'success': 'false'}
+
+app = Flask(__name__)
+app.run()
