@@ -77,7 +77,10 @@ def getanimations():
 
 @app.route('/getcurrentani')
 def getcurrentani():
-    return {'animations' : {"testing":"hi"}}
+    tempList = []
+    for ani in allAnimations:
+        tempList.append(ani)
+    return {'animations' : tempList}
 
 @app.route('/toggle')
 def toggler():

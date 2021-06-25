@@ -14,7 +14,14 @@ class Animation:
         return [self.name,self.length]
     def getparamsnames(self):
         return ["name","length"]
-        
+    def getall(self):
+        params = self.getparams()
+        paramsnames = self.getparamsnames()
+        paramdict = {}
+        for i in range(0,len(params)):
+            paramdict[paramsnames[i]] = params[i]
+        return paramdict
+
 class FullAnimation:
     def __init__(self,strip,listOfAni):
         self.active = True

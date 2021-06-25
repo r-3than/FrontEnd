@@ -28,3 +28,4 @@ class AlternateAnimation(Animation):
         return [self.name,self.length,self.color1,self.color2,self.delay]
     def getparamsnames(self):
         return ["name","length","color1","color2","delay"]
+    
