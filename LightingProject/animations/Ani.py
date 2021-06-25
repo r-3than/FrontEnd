@@ -1,5 +1,5 @@
 
-class Animation:
+class Ani:
     def __init__(self,strip,name,length):
         self.strip = strip
         self.ledcount = self.strip.numPixels()
