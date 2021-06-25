@@ -13,7 +13,7 @@ import argparse
 from functools import lru_cache
 import numpy as np
 import threading 
-import gpiozero , time ,json
+import gpiozero , time 
 
 import sys
 from animations import *
@@ -29,9 +29,9 @@ for item in AnimationModules:
     allAnimations[name] = Module
 
 
-
 print(allAnimations)
 
+print(json.dumps(list(allAnimations.keys())))
 #from animations.rainbowFade import RainbowAnimation
 #from animations.blink import BlinkAnimation
 
@@ -60,7 +60,7 @@ Inp = gpiozero.Button(23)
 Inp.when_pressed =fullAnimation.flip
 
 def drawThread():
-    print("Started playing")
+    print("Started playing??")
     while True:
         fullAnimation.display()
 
@@ -74,7 +74,13 @@ def get_current_time():
 
 @app.route('/getanimations')
 def getanimations():
-    return {'animations' : json.dumps(allAnimations)}
+    return {'animations' : list(allAnimations.keys())}
+
+
+@app.route('/getcurrentani')
+def getcurrentani():
+    return {'animations' : {"testing":"hi"}}
+
 @app.route('/toggle')
 def toggler():
     try:

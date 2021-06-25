@@ -24,3 +24,7 @@ class FollowAnimation(Animation):
             self.strip.show()
             end = time.time()
             if self.animationStartTime + self.length <= end: self.active = False
+    def getparams(self):
+        return [self.name,self.length,self.color,self.delay]
+    def getparamsnames(self):
+        return ["name","length","color","delay"]
