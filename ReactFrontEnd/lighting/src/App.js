@@ -5,32 +5,8 @@ import { Button, Grid, TextField } from '@material-ui/core';
 
 class ToggleButton extends Component{
   
-  constructor(props : myProps){
-    super(props);
-    this.state ={}
-
-    
-
-  }
   handleClick(){
-      // POST request using fetch inside useEffect React hook
-      //const form: HTMLFormElement = document.querySelector('#loginform');
-      //const formData = new FormData(form);
-      //const passwordForm= formData.get('password') as string;
-      //const usernameForm = formData.get('email') as string;
-      //const requestOptions = {
-      //    method: 'POST',
-      //    headers: { 'Content-Type': 'application/json' },
-      //    body: JSON.stringify({ username: usernameForm, password:passwordForm})
-      //};
       fetch('/toggle').then(response => response.json());
-          //.then(data => localStorage.setItem('jwt', data.access_token));
-
-      
-
-
-  
-  // empty dependency array means this effect will only run once (like componentDidMount in classes)
     }
   render()
   {
@@ -51,6 +27,53 @@ class ToggleButton extends Component{
   }
 }
 
+class SkipButton extends Component{
+  
+  handleClick(){
+      fetch('/skip').then(response => response.json());
+    }
+  render()
+  {
+    return (
+    
+        <div id="Toggle">
+        <Button
+          onClick={this.handleClick}
+          fullWidth
+          variant="contained"
+          color="primary"
+          className="submit"
+        >
+          Back!
+        </Button>
+        </div>    
+    )
+  }
+}
+
+class BackButton extends Component{
+  
+  handleClick(){
+      fetch('/back').then(response => response.json());
+    }
+  render()
+  {
+    return (
+    
+        <div id="Toggle">
+        <Button
+          onClick={this.handleClick}
+          fullWidth
+          variant="contained"
+          color="primary"
+          className="submit"
+        >
+          Next!
+        </Button>
+        </div>    
+    )
+  }
+}
 
 
 

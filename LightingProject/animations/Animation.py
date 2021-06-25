@@ -7,6 +7,7 @@ class Animation:
         self.length = length
         self.active = True
     def draw(self,colour=[0,0,0]):
+        self.active= True
         {self.strip.setPixelColor(i,toCol(colour)): i for i in range(0,self.ledcount)}
         self.strip.show()
 
@@ -24,9 +25,11 @@ class FullAnimation:
         for item in self.animations:
             item.active=self.active
     def skip(self):
+        self.currentAnimation.active = False
         self.currentIndex = (self.currentIndex +1)%len(self.animations)
         self.currentAnimation = self.animations[self.currentIndex]
     def back(self):
+        self.currentAnimation.active = False
         self.currentIndex = (self.currentIndex -1)%len(self.animations)
         self.currentAnimation = self.animations[self.currentIndex]
     def display(self):

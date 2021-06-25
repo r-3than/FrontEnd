@@ -79,5 +79,21 @@ def toggler():
     except:
         return {'success': 'false'}
 
+@app.route('/skip')
+def skiper():
+    try:
+        fullAnimation.skip()
+        return {'success': 'true'}
+    except:
+        return {'success': 'false'}
+
+@app.route('/back')
+def backer():
+    try:
+        fullAnimation.back()
+        return {'success': 'true'}
+    except:
+        return {'success': 'false'}
+
 
 app.run(host="0.0.0.0")
