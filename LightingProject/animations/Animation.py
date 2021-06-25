@@ -18,7 +18,8 @@ class FullAnimation:
         self.currentAnimation = listOfAni[0]
         self.currentIndex = 0
     def flip(self):
-        self.currentIndex = self.currentIndex -1 # to stay on the same animation otherwise will skip to next on pause
+        if self.active == True:
+            self.currentIndex = self.currentIndex -1 # to stay on the same animation otherwise will skip to next on pause
         self.active = not self.active
         for item in self.animations:
             item.active=self.active
