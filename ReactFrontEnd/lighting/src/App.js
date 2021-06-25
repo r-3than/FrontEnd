@@ -44,7 +44,7 @@ class SkipButton extends Component{
           color="primary"
           className="submit"
         >
-          Back!
+          Next!
         </Button>
         </div>    
     )
@@ -68,7 +68,7 @@ class BackButton extends Component{
           color="primary"
           className="submit"
         >
-          Next!
+          Back!
         </Button>
         </div>    
     )
@@ -101,7 +101,7 @@ function App() {
           Learn React
         </a>
         <a> &nbsp;</a>
-        <ToggleButton/>
+        <BackButton/> <ToggleButton/> <SkipButton/>
         <p>The current time is {currentTime}.</p>
       </header>
     </div>
