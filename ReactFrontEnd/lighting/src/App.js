@@ -14,7 +14,11 @@ import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
 import Link from '@material-ui/core/Link';
-//import AddIcon from '@material-ui/icons/Add';
+import AddIcon from '@material-ui/icons/Add';
+import PowerSettingsNewIcon from '@material-ui/icons/PowerSettingsNew';
+import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
+import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
+
 class ToggleButton extends Component{
   
   handleClick(){
@@ -32,7 +36,7 @@ class ToggleButton extends Component{
           color="primary"
           className="submit"
         >
-          Toggle!
+          <PowerSettingsNewIcon/>
         </Button>
         </div>    
     )
@@ -56,7 +60,7 @@ class SkipButton extends Component{
           color="primary"
           className="submit"
         >
-          Next!
+          <ArrowForwardIosIcon/>
         </Button>
         </div>    
     )
@@ -80,7 +84,7 @@ class BackButton extends Component{
           color="primary"
           className="submit"
         >
-          Back!
+          <ArrowBackIosIcon/>
         </Button>
         </div>    
     )
@@ -146,7 +150,7 @@ export default function Album() {
           <Typography variant="h6" color="inherit" noWrap>
             Lighting control
           </Typography>
-          <Button> </Button>
+          <Button><AddIcon ></AddIcon></Button>
         </Toolbar>
       </AppBar>
       <main>
@@ -169,6 +173,7 @@ export default function Album() {
                 </Grid>
                 <Grid item>
                 <SkipButton/>
+                
                 </Grid>
               </Grid>
             </div>
