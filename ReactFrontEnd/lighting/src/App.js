@@ -229,13 +229,16 @@ export default function App() {
   { return (<div className="App">Loading...</div>)};
   function addItem(item) {
     fetch('/addanimation/'+item).then(response => response.json())
-    fetch('/getcurrentani').then(response => response.json()).then(data => {setCurrentAni(data.animations); setLoading(false); console.log("update!");  }); 
+    fetch('/getcurrentani').then(response => response.json()).then(data => {setCurrentAni(data.animations); setLoading(false); console.log(currentAni);  }); 
+    setCurrentAni([...currentAni])
   }
   function removeItem(index) {
-    fetch('removeanimation/'+index).then(response => response.json())
-    let temp1 = currentAni;
-    let temp = temp1.splice(index,1);
-    setCurrentAni([...temp1]);
+    if (currentAni.length > 1) {
+      fetch('removeanimation/'+index).then(response => response.json())
+      let temp1 = currentAni;
+      let temp = temp1.splice(index,1);
+      setCurrentAni([...temp1]);
+    }
   }
   function update(index){
     const form =document.querySelector('#card'+index);
@@ -311,7 +314,7 @@ export default function App() {
                       { key !== "type" ? 
                       <TextField name={key} id="outlined-basic" size="small" label={key.charAt(0).toUpperCase() + key.slice(1)} variant="outlined"  defaultValue={Object.values(val)[index]} />
                       :
-                      <TextField name={key} InputProps={{readOnly: true,}} id="outlined-basic" readonly size="small" label={key.charAt(0).toUpperCase() + key.slice(1)} variant="outlined"  defaultValue={Object.values(val)[index]} />
+                      <TextField name={key} InputProps={{readOnly: true,}} id="outlined-basic" readOnly size="small" label={key.charAt(0).toUpperCase() + key.slice(1)} variant="outlined"  defaultValue={Object.values(val)[index]} />
                     }
                       <a> &nbsp;</a> 
                     </Typography>

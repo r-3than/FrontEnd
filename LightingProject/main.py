@@ -80,8 +80,10 @@ def addanimation(name):
 def removeanimation(index):
     try : index = int(index)
     except: return {'success': 'false'}
-    fullAnimation.animations.pop(index)
-    return {'success': 'true'}
+    if len(fullAnimation.animations) > 1:
+        fullAnimation.animations.pop(index)
+        return {'success': 'true'}
+    else: return {'success': 'false'}
 
 @app.route("/editanimation/<index>", methods=["POST"])
 def editanimation(index):
@@ -104,6 +106,7 @@ def getcurrentani():
     tempList = []
     for ani in fullAnimation.animations:
         tempList.append(ani.getall())
+    print(tempList)
     return {'animations' : tempList}
 
 @app.route('/toggle')
