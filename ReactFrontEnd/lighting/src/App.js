@@ -24,6 +24,7 @@ import IconButton from '@material-ui/core/IconButton';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
+import TextField from '@material-ui/core/TextField';
 
 class ToggleButton extends Component{
   
@@ -228,13 +229,28 @@ export default function App() {
   { return (<div className="App">Loading...</div>)};
   function addItem(item) {
     fetch('/addanimation/'+item).then(response => response.json())
-    fetch('/getcurrentani').then(response => response.json()).then(data => {setCurrentAni(data.animations); setLoading(false);   }); 
+    fetch('/getcurrentani').then(response => response.json()).then(data => {setCurrentAni(data.animations); setLoading(false); console.log("update!");  }); 
   }
   function removeItem(index) {
     fetch('removeanimation/'+index).then(response => response.json())
     let temp1 = currentAni;
     let temp = temp1.splice(index,1);
     setCurrentAni([...temp1]);
+  }
+  function update(index){
+    const form =document.querySelector('#card'+index);
+    const formData = new FormData(form);
+    const aniToChange = currentAni[index]
+    const dict = {}
+    Object.keys(aniToChange).map((key,index) => (
+      dict[key] = formData.get(key)
+    ))
+    const requestOptions = {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ params: "usernameForm"})
+  };
+  fetch('/editanimation/'+index, requestOptions).then(response => response.json())
   }
   return (
     <React.Fragment>
@@ -279,37 +295,44 @@ export default function App() {
           </Container>
         </div>
         <Container className={classes.cardGrid} maxWidth="md">
-          {/* End hero unit */}
           <Grid container spacing={4}>
             
             {currentAni.map((val,card) => (
               <Grid item key={card} xs={12} sm={6} md={4}>
                 <Card className={classes.card}>
                   <CardContent className={classes.cardContent}>
+                    <form noValidate id={"card"+card}>
                     <Typography gutterBottom variant="h5" component="h2">
                     Position: {card}
                     </Typography>
                     {Object.keys(val).map((key,index) => (
                     <Typography>
-                      {key.charAt(0).toUpperCase() + key.slice(1)} : {Object.values(val)[index]}
+                      
+                      { key !== "type" ? 
+                      <TextField name={key} id="outlined-basic" size="small" label={key.charAt(0).toUpperCase() + key.slice(1)} variant="outlined"  defaultValue={Object.values(val)[index]} />
+                      :
+                      <TextField name={key} InputProps={{readOnly: true,}} id="outlined-basic" readonly size="small" label={key.charAt(0).toUpperCase() + key.slice(1)} variant="outlined"  defaultValue={Object.values(val)[index]} />
+                    }
+                      <a> &nbsp;</a> 
                     </Typography>
                     ))}
+                  </form>
                   </CardContent>
                   <CardActions>
                     <Button size="small" color="primary" onClick={() => removeItem(card)}>
                     <DeleteForeverIcon/>
                     </Button>
-                    <Button size="small" color="primary">
+                    <Button size="small" color="primary" onClick={() => update(card)}>
                       Edit
                     </Button>
                   </CardActions>
+                  
                 </Card>
               </Grid>
             ))}
           </Grid>
         </Container>
       </main>
-      {/* Footer */}
       <footer className={classes.footer}>
         <Typography variant="h6" align="center" gutterBottom> 
           do later
@@ -319,7 +342,6 @@ export default function App() {
         </Typography>
 
       </footer>
-      {/* End footer */}
     </React.Fragment>
   );
 }

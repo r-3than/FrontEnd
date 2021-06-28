@@ -85,6 +85,7 @@ def removeanimation(index):
 
 @app.route("/editanimation/<index>", methods=["POST"])
 def editanimation(index):
+    index = int(index)
     params = request.json.get("params", None)
     for key in list(params.keys()):
         fullAnimation.animations[index].params[key] = params[key]
