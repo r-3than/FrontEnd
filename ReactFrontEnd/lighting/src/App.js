@@ -248,7 +248,7 @@ export default function App() {
     const requestOptions = {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ params: "usernameForm"})
+      body: JSON.stringify({ params: dict})
   };
   fetch('/editanimation/'+index, requestOptions).then(response => response.json())
   }

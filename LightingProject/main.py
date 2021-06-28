@@ -10,7 +10,7 @@ from functools import lru_cache
 import numpy as np
 import threading 
 import gpiozero 
-
+import ast
 import sys
 from animations import *
 
@@ -88,7 +88,9 @@ def editanimation(index):
     index = int(index)
     params = request.json.get("params", None)
     for key in list(params.keys()):
-        fullAnimation.animations[index].params[key] = params[key]
+        temp = params[key]
+        temp = ast.literal_eval(temp)
+        fullAnimation.animations[index].params[key] = temp
     return {'success': 'true'}
 
 @app.route('/animations/<name>')
