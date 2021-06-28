@@ -89,7 +89,7 @@ def editanimation(index):
     params = request.json.get("params", None)
     for key in list(params.keys()):
         temp = params[key]
-        temp = ast.literal_eval(temp)
+        print(temp)
         fullAnimation.animations[index].params[key] = temp
     return {'success': 'true'}
 
