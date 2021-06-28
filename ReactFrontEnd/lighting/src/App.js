@@ -18,6 +18,8 @@ import AddIcon from '@material-ui/icons/Add';
 import PowerSettingsNewIcon from '@material-ui/icons/PowerSettingsNew';
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
+import PublishIcon from '@material-ui/icons/Publish';
+import DeleteForeverIcon from '@material-ui/icons/DeleteForever';
 
 class ToggleButton extends Component{
   
@@ -141,13 +143,23 @@ const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
 
 
+
 export default function Album() {
+  
   const classes = useStyles();
   const [isLoading, setLoading] = useState(true);
   const [currentAni, setCurrentAni] = useState(0);
   useEffect(() => {fetch('/getcurrentani').then(response => response.json()).then(data => {setCurrentAni(data.animations); setLoading(false);   }); }, []);
   if (isLoading) 
   { return (<div className="App">Loading...</div>)};
+  function addItem() {
+    setCurrentAni([...currentAni,"hi"]);
+  }
+  function removeItem(index) {
+    let temp1 = currentAni;
+    let temp = temp1.splice(index,1);
+    setCurrentAni([...temp1]);
+  }
   return (
     <React.Fragment>
       <CssBaseline />
@@ -156,7 +168,8 @@ export default function Album() {
           <Typography variant="h6" color="inherit" noWrap>
             Lighting control
           </Typography>
-          <Button><AddIcon ></AddIcon></Button>
+          <Button onClick={addItem}><AddIcon/></Button>
+          <Button> <PublishIcon/> </Button>
         </Toolbar>
       </AppBar>
       <main>
@@ -203,8 +216,8 @@ export default function Album() {
                     ))}
                   </CardContent>
                   <CardActions>
-                    <Button size="small" color="primary">
-                      View
+                    <Button size="small" color="primary" onClick={() => removeItem(card)}>
+                    <DeleteForeverIcon/>
                     </Button>
                     <Button size="small" color="primary">
                       Edit

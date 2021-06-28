@@ -41,9 +41,9 @@ class RainbowAnimation(Animation):
             time.sleep(max(maxTime-(end-start),0))
             if self.animationStartTime + self.length <= end: self.active = False
     def getparams(self):
-        return [self.name,self.length,self.variance,self.speed]
+        return [type(self).__name__,self.name,self.length,self.variance,self.speed]
     def getparamsnames(self):
-        return ["name","length","variance","speed"]
+        return ["type","name","length","variance","speed"]
         
             
 

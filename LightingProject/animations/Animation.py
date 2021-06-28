@@ -11,9 +11,9 @@ class Animation:
         {self.strip.setPixelColor(i,toCol(colour)): i for i in range(0,self.ledcount)}
         self.strip.show()
     def getparams(self):
-        return [self.name,self.length]
+        return [type(self).__name__,self.name,self.length]
     def getparamsnames(self):
-        return ["name","length"]
+        return ["type","name","length"]
     def getall(self):
         params = self.getparams()
         paramsnames = self.getparamsnames()
