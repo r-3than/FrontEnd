@@ -73,7 +73,7 @@ def getanimations():
 @app.route("/addanimation/<name>")
 def login(name):
     temp =allAnimations[name](strip,name,10)
-    fullAnimation.append(temp)
+    fullAnimation.animations.append(temp)
     return {'success': 'true'}
 
 @app.route('/animations/<name>')
