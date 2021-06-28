@@ -24,7 +24,7 @@ def rainbowFade(val):
 class SoildRainbowAnimation(Animation):
     def __init__(self,strip,name,length,speed=10):
         super().__init__(strip,name,length)
-        self.speed = speed
+        self.params = {"type":type(self).__name__,"name":name,"length":length,"speed":speed}
         self.totalFramesElapsed =0
     def draw(self):
         self.active= True
@@ -34,16 +34,11 @@ class SoildRainbowAnimation(Animation):
         while self.active:
             self.totalFramesElapsed += 1
             start= time.time()
-            {self.strip.setPixelColor(i,rainbowFade(self.totalFramesElapsed*self.speed)): i for i in range(0,self.ledcount)}
+            {self.strip.setPixelColor(i,rainbowFade(self.totalFramesElapsed*self.params["speed"])): i for i in range(0,self.ledcount)}
             self.strip.show()
             end = time.time()
             time.sleep(max(maxTime-(end-start),0))
-            if self.animationStartTime + self.length <= end: self.active = False
-    def getparams(self):
-        return [self.name,self.length,self.speed]
-    def getparamsnames(self):
-        return ["name","length","speed"]
-        
+            if self.animationStartTime + self.params["length"] <= end: self.active = False
             
 
 

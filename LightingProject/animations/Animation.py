@@ -3,24 +3,18 @@ class Animation:
     def __init__(self,strip,name,length):
         self.strip = strip
         self.ledcount = self.strip.numPixels()
-        self.name = name
-        self.length = length
+        self.params = {"type":type(self).__name__,"name":name,"length":length}
         self.active = True
     def draw(self,colour=[0,0,0]):
         self.active= True
         {self.strip.setPixelColor(i,toCol(colour)): i for i in range(0,self.ledcount)}
         self.strip.show()
     def getparams(self):
-        return [type(self).__name__,self.name,self.length]
+        return list(self.params.values())
     def getparamsnames(self):
-        return ["type","name","length"]
+        return list(self.params.keys())
     def getall(self):
-        params = self.getparams()
-        paramsnames = self.getparamsnames()
-        paramdict = {}
-        for i in range(0,len(params)):
-            paramdict[paramsnames[i]] = params[i]
-        return paramdict
+        return self.params
 
 class FullAnimation:
     def __init__(self,strip,listOfAni):

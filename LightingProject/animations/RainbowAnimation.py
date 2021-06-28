@@ -24,8 +24,7 @@ def rainbowFade(val):
 class RainbowAnimation(Animation):
     def __init__(self,strip,name,length,variance=10,speed=10):
         super().__init__(strip,name,length)
-        self.variance = variance
-        self.speed = speed
+        self.params = {"type":type(self).__name__,"name":name,"length":length,"speed":speed,"variance":variance}
         self.totalFramesElapsed =0
     def draw(self):
         self.active= True
@@ -35,15 +34,12 @@ class RainbowAnimation(Animation):
         while self.active:
             self.totalFramesElapsed += 1
             start= time.time()
-            {self.strip.setPixelColor(i,rainbowFade(i*self.variance+self.totalFramesElapsed*self.speed)): i for i in range(0,self.ledcount)}
+            {self.strip.setPixelColor(i,rainbowFade(i*self.params["variance"]+self.totalFramesElapsed*self.params["speed"])): i for i in range(0,self.ledcount)}
             self.strip.show()
             end = time.time()
             time.sleep(max(maxTime-(end-start),0))
-            if self.animationStartTime + self.length <= end: self.active = False
-    def getparams(self):
-        return [type(self).__name__,self.name,self.length,self.variance,self.speed]
-    def getparamsnames(self):
-        return ["type","name","length","variance","speed"]
+            if self.animationStartTime + self.params["length"] <= end: self.active = False
+
         
             
 

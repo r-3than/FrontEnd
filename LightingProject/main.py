@@ -71,9 +71,21 @@ def getanimations():
     return {'animations' : list(allAnimations.keys())}
 
 @app.route("/addanimation/<name>")
-def login(name):
+def addanimation(name):
     temp =allAnimations[name](strip,name,10)
     fullAnimation.animations.append(temp)
+    return {'success': 'true'}
+
+@app.route("/removeanimation/<index>")
+def removeanimation(index):
+    fullAnimation.animations.pop(index)
+    return {'success': 'true'}
+
+@app.route("/editanimation/<index>", methods=["POST"])
+def editanimation(index):
+    params = request.json.get("params", None)
+    for key in list(params.keys()):
+        fullAnimation.animations[index].params[key] = params[key]
     return {'success': 'true'}
 
 @app.route('/animations/<name>')
