@@ -237,7 +237,7 @@ export default function App() {
       fetch('removeanimation/'+index).then(response => response.json())
       let temp1 = currentAni;
       let temp = temp1.splice(index,1);
-      setCurrentAni([...temp1]);
+      setCurrentAni([...temp1])
     }
   }
   function update(index){
@@ -312,9 +312,9 @@ export default function App() {
                     <Typography>
                       
                       { key !== "type" ? 
-                      <TextField name={key} id="outlined-basic" size="small" label={key.charAt(0).toUpperCase() + key.slice(1)} variant="outlined"  defaultValue={Object.values(val)[index]} />
+                      <TextField  name={key} id="outlined-basic" size="small" label={key.charAt(0).toUpperCase() + key.slice(1)} variant="outlined"  value={Object.values(val)[index]} />
                       :
-                      <TextField name={key} InputProps={{readOnly: true,}} id="outlined-basic" readOnly size="small" label={key.charAt(0).toUpperCase() + key.slice(1)} variant="outlined"  defaultValue={Object.values(val)[index]} />
+                      <TextField name={key} InputProps={{readOnly: true,}} id="outlined-basic" readOnly size="small" label={key.charAt(0).toUpperCase() + key.slice(1)} variant="outlined"  value={Object.values(val)[index]} />
                     }
                       <a> &nbsp;</a> 
                     </Typography>
