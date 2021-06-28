@@ -20,6 +20,10 @@ import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 import PublishIcon from '@material-ui/icons/Publish';
 import DeleteForeverIcon from '@material-ui/icons/DeleteForever';
+import IconButton from '@material-ui/core/IconButton';
+import Menu from '@material-ui/core/Menu';
+import MenuItem from '@material-ui/core/MenuItem';
+import MoreVertIcon from '@material-ui/icons/MoreVert';
 
 class ToggleButton extends Component{
   
@@ -137,23 +141,94 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: theme.palette.background.paper,
     padding: theme.spacing(6),
   },
+  toolbarButtons: {
+    marginLeft: 'auto',
+  },
 }));
 
-const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+const ITEM_HEIGHT = 48;
+
+
+
+const LongMenu =(props) => {
+  const [anchorEl, setAnchorEl] = React.useState(null);
+  const [options, setOptions] = useState(null)
+  const [selectedItem, setItem] = useState(null);
+  useEffect(() => {fetch("/getanimations").then(response => response.json()).then(data => {setOptions(data.animations)}); },[]);
+  
+  
+  
+  const open = Boolean(anchorEl);
+  useEffect(() => {setItem(props.currItem);} , []);
+  if (options == null) {return <div> loading </div>}
+  const handleClick = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+
+  const handleClose = (item) => {
+    setAnchorEl(null);
+    if (item.type !== "click"){
+    setItem(item);
+    }
+  };
+
+  return (
+    
+    <div>
+      <Button onClick={() => props.addItem(selectedItem)}><AddIcon/></Button>
+      <Button
+        aria-label="more"
+        aria-controls="long-menu"
+        aria-haspopup="true"
+        onClick={handleClick}
+      >
+        {selectedItem}
+      </Button>
+      <Menu
+        id="long-menu"
+        anchorEl={anchorEl}
+        keepMounted
+        open={open}
+        onClose={handleClose}
+        PaperProps={{
+          style: {
+            maxHeight: ITEM_HEIGHT * 4.5,
+            width: '40ch',
+          },
+        }}
+      >
+        {options.map((option) => (
+          <MenuItem key={option} selected={option === selectedItem} onClick={() => handleClose(option)}>
+            {option}
+          </MenuItem>
+        ))}
+      </Menu>
+    </div>
+  );
+}
 
 
 
 
-export default function Album() {
+
+
+
+
+
+
+export default function App() {
   
   const classes = useStyles();
   const [isLoading, setLoading] = useState(true);
   const [currentAni, setCurrentAni] = useState(0);
   useEffect(() => {fetch('/getcurrentani').then(response => response.json()).then(data => {setCurrentAni(data.animations); setLoading(false);   }); }, []);
+  
   if (isLoading) 
   { return (<div className="App">Loading...</div>)};
-  function addItem() {
-    setCurrentAni([...currentAni,"hi"]);
+  function addItem(item) {
+    fetch('/addanimation/'+item).then(response => response.json())
+    fetch('/getcurrentani').then(response => response.json()).then(data => {setCurrentAni(data.animations); setLoading(false);   }); 
   }
   function removeItem(index) {
     let temp1 = currentAni;
@@ -168,12 +243,16 @@ export default function Album() {
           <Typography variant="h6" color="inherit" noWrap>
             Lighting control
           </Typography>
-          <Button onClick={addItem}><AddIcon/></Button>
+          
+          
+          <LongMenu currItem="test" addItem={addItem}/>
+          <div className={classes.toolbarButtons}>
           <Button> <PublishIcon/> </Button>
+          </div>
         </Toolbar>
+        
       </AppBar>
       <main>
-        {/* Hero unit */}
         <a> &nbsp;</a>
         
         <div className={classes.heroContent}>

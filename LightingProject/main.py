@@ -70,11 +70,11 @@ def get_current_time():
 def getanimations():
     return {'animations' : list(allAnimations.keys())}
 
-@app.route("/addanimation", methods=["POST"])
-def login():
-    aniName = request.json.get("aniName", None)
-    params = request.json.get("params", None) #name length args
-
+@app.route("/addanimation/<name>")
+def login(name):
+    temp =allAnimations[name](strip,name,10)
+    fullAnimation.append(temp)
+    return {'success': 'true'}
 
 @app.route('/animations/<name>')
 def getanimation(name):
