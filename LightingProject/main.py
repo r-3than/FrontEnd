@@ -78,6 +78,8 @@ def addanimation(name):
 
 @app.route("/removeanimation/<index>")
 def removeanimation(index):
+    try : index = int(index)
+    except: return {'success': 'false'}
     fullAnimation.animations.pop(index)
     return {'success': 'true'}
 

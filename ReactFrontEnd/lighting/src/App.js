@@ -231,6 +231,7 @@ export default function App() {
     fetch('/getcurrentani').then(response => response.json()).then(data => {setCurrentAni(data.animations); setLoading(false);   }); 
   }
   function removeItem(index) {
+    fetch('removeanimation/'+index).then(response => response.json())
     let temp1 = currentAni;
     let temp = temp1.splice(index,1);
     setCurrentAni([...temp1]);
