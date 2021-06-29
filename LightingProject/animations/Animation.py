@@ -36,7 +36,7 @@ class FullAnimation:
         temp.active = False
     def back(self):
         temp = self.currentAnimation
-        self.currentIndex = (self.currentIndex -1)%len(self.animations)
+        self.currentIndex = (self.currentIndex -2)%len(self.animations)
         self.currentAnimation = self.animations[self.currentIndex]
         temp.active = False
     def display(self):
