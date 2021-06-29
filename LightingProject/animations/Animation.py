@@ -30,13 +30,15 @@ class FullAnimation:
         for item in self.animations:
             item.active=self.active
     def skip(self):
-        self.currentAnimation.active = False
+        temp = self.currentAnimation
         self.currentIndex = (self.currentIndex +1)%len(self.animations)
         self.currentAnimation = self.animations[self.currentIndex]
+        temp.active = False
     def back(self):
-        self.currentAnimation.active = False
-        self.currentIndex = (self.currentIndex -2)%len(self.animations)
+        temp = self.currentAnimation
+        self.currentIndex = (self.currentIndex -1)%len(self.animations)
         self.currentAnimation = self.animations[self.currentIndex]
+        temp.active = False
     def display(self):
         if self.active:
             self.currentAnimation.draw()
