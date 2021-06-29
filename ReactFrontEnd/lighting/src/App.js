@@ -217,26 +217,34 @@ const LongMenu =(props) => {
 
 
 
-
 export default function App() {
   
   const classes = useStyles();
   const [isLoading, setLoading] = useState(true);
   const [currentAni, setCurrentAni] = useState(0);
+  const handleChange = (e,key,index) => {
+    console.log(e.target.value); 
+    let temp = currentAni;
+    temp[index][key] = e.target.value
+    setCurrentAni([...temp])
+  };
   useEffect(() => {fetch('/getcurrentani').then(response => response.json()).then(data => {setCurrentAni(data.animations); setLoading(false);   }); }, []);
   
   if (isLoading) 
   { return (<div className="App">Loading...</div>)};
   function addItem(item) {
-    fetch('/addanimation/'+item).then(response => response.json())
-    fetch('/getcurrentani').then(response => response.json()).then(data => {setCurrentAni(data.animations); setLoading(false); console.log(currentAni);  }); 
+    fetch('/addanimation/'+item).then(response => {response.json(); fetch('/getcurrentani').then(response => response.json()).then(data => {setCurrentAni(data.animations); setLoading(false); console.log(data.animations);  }); })
+    //fetch('/getcurrentani').then(response => response.json()).then(data => {setCurrentAni(data.animations); setLoading(false); console.log(data.animations);  }); 
     setCurrentAni([...currentAni])
   }
   function removeItem(index) {
     if (currentAni.length > 1) {
+      
+
       fetch('removeanimation/'+index).then(response => response.json())
       let temp1 = currentAni;
-      let temp = temp1.splice(index,1);
+      let temp = temp1.splice(index,1)[0];
+      
       setCurrentAni([...temp1])
     }
   }
@@ -253,6 +261,8 @@ export default function App() {
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ params: dict})
   };
+  
+  
   fetch('/editanimation/'+index, requestOptions).then(response => response.json())
   }
   return (
@@ -312,9 +322,9 @@ export default function App() {
                     <Typography>
                       
                       { key !== "type" ? 
-                      <TextField  name={key} id="outlined-basic" size="small" label={key.charAt(0).toUpperCase() + key.slice(1)} variant="outlined"  value={Object.values(val)[index]} />
+                      <TextField name={key} flag={key+index} id="outlined-basic" size="small" label={key.charAt(0).toUpperCase() + key.slice(1)} variant="outlined" onChange={(e) => handleChange(e,key,card)} value={Object.values(val)[index]} />
                       :
-                      <TextField name={key} InputProps={{readOnly: true,}} id="outlined-basic" readOnly size="small" label={key.charAt(0).toUpperCase() + key.slice(1)} variant="outlined"  value={Object.values(val)[index]} />
+                      <TextField name={key} flag={key+index} InputProps={{readOnly: true,}} id="outlined-basic" readOnly size="small" label={key.charAt(0).toUpperCase() + key.slice(1)} variant="outlined"  value={Object.values(val)[index]} />
                     }
                       <a> &nbsp;</a> 
                     </Typography>

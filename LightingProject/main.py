@@ -91,6 +91,7 @@ def editanimation(index):
     params = request.json.get("params", None)
     for key in list(params.keys()):
         try:
+            print(key)
             if key != "type" or key != "name":
                 temp = eval(params[key])
             else:
