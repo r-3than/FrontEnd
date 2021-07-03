@@ -26,10 +26,13 @@ import MenuItem from '@material-ui/core/MenuItem';
 import MoreVertIcon from '@material-ui/icons/MoreVert';
 import TextField from '@material-ui/core/TextField';
 
+
+const url = "http://ethanpi:5000"
+
 class ToggleButton extends Component{
   
   handleClick(){
-      fetch('/toggle').then(response => response.json());
+      fetch(url+'/toggle').then(response => response.json());
     }
   render()
   {
@@ -53,7 +56,7 @@ class ToggleButton extends Component{
 class SkipButton extends Component{
   
   handleClick(){
-      fetch('/skip').then(response => response.json());
+      fetch(url+'/skip').then(response => response.json());
     }
   render()
   {
@@ -77,7 +80,7 @@ class SkipButton extends Component{
 class BackButton extends Component{
   
   handleClick(){
-      fetch('/back').then(response => response.json());
+      fetch(url+'/back').then(response => response.json());
     }
   render()
   {
@@ -156,7 +159,7 @@ const LongMenu =(props) => {
   const [anchorEl, setAnchorEl] = React.useState(null);
   const [options, setOptions] = useState(null)
   const [selectedItem, setItem] = useState(null);
-  useEffect(() => {fetch("/getanimations").then(response => response.json()).then(data => {setOptions(data.animations)}); },[]);
+  useEffect(() => {fetch(url+"/getanimations").then(response => response.json()).then(data => {setOptions(data.animations)}); },[]);
   
   
   
@@ -228,18 +231,18 @@ export default function App() {
     temp[index][key] = e.target.value
     setCurrentAni([...temp])
   };
-  useEffect(() => {fetch('/getcurrentani').then(response => response.json()).then(data => {setCurrentAni(data.animations); setLoading(false);   }); }, []);
+  useEffect(() => {fetch(url+'/getcurrentani').then(response => response.json()).then(data => {setCurrentAni(data.animations); setLoading(false);   }); }, []);
   
   function addItem(item) {
-    fetch('/addanimation/'+item).then(response => {response.json(); fetch('/getcurrentani').then(response => response.json()).then(data => {setCurrentAni(data.animations); setLoading(false); console.log(data.animations);  }); })
-    //fetch('/getcurrentani').then(response => response.json()).then(data => {setCurrentAni(data.animations); setLoading(false); console.log(data.animations);  }); 
+    fetch(url+'/addanimation/'+item).then(response => {response.json(); fetch(url+'/getcurrentani').then(response => response.json()).then(data => {setCurrentAni(data.animations); setLoading(false); console.log(data.animations);  }); })
+    //fetch(url+'/getcurrentani').then(response => response.json()).then(data => {setCurrentAni(data.animations); setLoading(false); console.log(data.animations);  }); 
     setCurrentAni([...currentAni])
   }
   function removeItem(index) {
     if (currentAni.length > 1) {
       
 
-      fetch('removeanimation/'+index).then(response => response.json())
+      fetch(url+'removeanimation/'+index).then(response => response.json())
       let temp1 = currentAni;
       let temp = temp1.splice(index,1)[0];
       
@@ -261,7 +264,7 @@ export default function App() {
   };
   
   
-  fetch('/editanimation/'+index, requestOptions).then(response => response.json())
+  fetch(url+'/editanimation/'+index, requestOptions).then(response => response.json())
   }
   return (
     <React.Fragment>
