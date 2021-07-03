@@ -221,7 +221,7 @@ export default function App() {
   
   const classes = useStyles();
   const [isLoading, setLoading] = useState(true);
-  const [currentAni, setCurrentAni] = useState(0);
+  const [currentAni, setCurrentAni] = useState([{}]);
   const handleChange = (e,key,index) => {
     console.log(e.target.value); 
     let temp = currentAni;
@@ -230,8 +230,6 @@ export default function App() {
   };
   useEffect(() => {fetch('/getcurrentani').then(response => response.json()).then(data => {setCurrentAni(data.animations); setLoading(false);   }); }, []);
   
-  if (isLoading) 
-  { return (<div className="App">Loading...</div>)};
   function addItem(item) {
     fetch('/addanimation/'+item).then(response => {response.json(); fetch('/getcurrentani').then(response => response.json()).then(data => {setCurrentAni(data.animations); setLoading(false); console.log(data.animations);  }); })
     //fetch('/getcurrentani').then(response => response.json()).then(data => {setCurrentAni(data.animations); setLoading(false); console.log(data.animations);  }); 
