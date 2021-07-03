@@ -1,0 +1,7 @@
+{
+    "name": "lighting",
+    "integrations": {
+      "capacitor": {}
+    },
+    "type": "react"
+  }

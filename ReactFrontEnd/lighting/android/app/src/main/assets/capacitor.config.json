@@ -1,0 +1,8 @@
+{
+	"appId": "io.ionic.lighting",
+	"appName": "lighting",
+	"bundledWebRuntime": false,
+	"npmClient": "npm",
+	"webDir": "build",
+	"cordova": {}
+}

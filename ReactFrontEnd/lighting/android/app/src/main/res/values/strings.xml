@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">lighting</string>
+    <string name="title_activity_main">lighting</string>
+    <string name="package_name">io.ionic.lighting</string>
+    <string name="custom_url_scheme">io.ionic.lighting</string>
+</resources>
