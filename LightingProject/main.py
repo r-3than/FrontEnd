@@ -1,4 +1,5 @@
 from flask import Flask
+from flask_cors import CORS
 from flask import request
 from animations.Animation import Animation
 import animations
@@ -10,7 +11,6 @@ from functools import lru_cache
 import numpy as np
 import threading 
 import gpiozero 
-import ast
 import sys
 from animations import *
 
@@ -61,6 +61,7 @@ def drawThread():
 
 worker = threading.Thread(target=drawThread).start()
 app = Flask(__name__)
+CORS(app)
 
 @app.route('/time')
 def get_current_time():
