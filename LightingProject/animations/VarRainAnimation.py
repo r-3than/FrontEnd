@@ -28,6 +28,7 @@ class VarRainAnimation(Animation):
         self.totalFramesElapsed =0
     def draw(self):
         currentStartTime = time.time()
+        prevFrames = 0
         currentIndex = 0
         currentLength = self.params["lengths"][currentIndex]
         currentSpeed = self.params["speeds"][currentIndex]
@@ -39,7 +40,7 @@ class VarRainAnimation(Animation):
         while self.active:
             self.totalFramesElapsed += 1
             start= time.time()
-            {self.strip.setPixelColor(i,rainbowFade(i*currentVar+self.totalFramesElapsed*currentSpeed)): i for i in range(0,self.ledcount)}
+            {self.strip.setPixelColor(i,rainbowFade(prevFrames+i*currentVar+self.totalFramesElapsed*currentSpeed)): i for i in range(0,self.ledcount)}
             self.strip.show()
             end = time.time()
             time.sleep(max(maxTime-(end-start),0))
@@ -47,6 +48,8 @@ class VarRainAnimation(Animation):
             if self.animationStartTime + self.params["length"] <= end: self.active = False
             if currentStartTime + currentLength <= end and self.active:
                 currentStartTime = time.time()
+                prevFrames += self.totalFramesElapsed*currentSpeed
+                self.totalFramesElapsed = 0
                 currentIndex += 1
                 currentLength = self.params["lengths"][currentIndex]
                 currentSpeed = self.params["speeds"][currentIndex]
