@@ -23,7 +23,7 @@ import DeleteForeverIcon from '@material-ui/icons/DeleteForever';
 import IconButton from '@material-ui/core/IconButton';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
-import MoreVertIcon from '@material-ui/icons/MoreVert';
+import Box from '@material-ui/core/Box';
 import TextField from '@material-ui/core/TextField';
 
 
@@ -187,7 +187,7 @@ const LongMenu =(props) => {
         aria-haspopup="true"
         onClick={handleClick}
       >
-        {selectedItem}
+        <Box overflow="hidden">{selectedItem}</Box>
       </Button>
       <Menu
         id="long-menu"
@@ -203,8 +203,8 @@ const LongMenu =(props) => {
         }}
       >
         {options.map((option) => (
-          <MenuItem key={option} selected={option === selectedItem} onClick={() => handleClose(option)}>
-            {option}
+          <MenuItem noWrap key={option} selected={option === selectedItem} onClick={() => handleClose(option)}>
+            <Typography variant="inherit" noWrap>{option}</Typography>
           </MenuItem>
         ))}
       </Menu>
@@ -242,7 +242,7 @@ export default function App() {
     if (currentAni.length > 1) {
       
 
-      fetch(url+'removeanimation/'+index).then(response => response.json())
+      fetch(url+'/removeanimation/'+index).then(response => response.json())
       let temp1 = currentAni;
       let temp = temp1.splice(index,1)[0];
       
@@ -271,12 +271,7 @@ export default function App() {
       <CssBaseline />
       <AppBar position="relative">
         <Toolbar>
-          <Typography variant="h6" color="inherit" noWrap>
-            Lighting control
-          </Typography>
-          
-          
-          <LongMenu currItem="test" addItem={addItem}/>
+          <LongMenu currItem="Animation" addItem={addItem}/>
           <div className={classes.toolbarButtons}>
           <Button> <PublishIcon/> </Button>
           </div>
@@ -309,10 +304,10 @@ export default function App() {
           </Container>
         </div>
         <Container className={classes.cardGrid} maxWidth="md">
-          <Grid container spacing={4}>
+          <Grid container spacing={2}>
             
             {currentAni.map((val,card) => (
-              <Grid item key={card} xs={12} sm={6} md={4}>
+              <Grid item key={card} xs={6} >
                 <Card className={classes.card}>
                   <CardContent className={classes.cardContent}>
                     <form noValidate id={"card"+card}>
@@ -320,14 +315,13 @@ export default function App() {
                     Position: {card}
                     </Typography>
                     {Object.keys(val).map((key,index) => (
-                    <Typography>
+                    <Typography class="extraMarg">
                       
                       { key !== "type" ? 
                       <TextField name={key} flag={key+index} id="outlined-basic" size="small" label={key.charAt(0).toUpperCase() + key.slice(1)} variant="outlined" onChange={(e) => handleChange(e,key,card)} value={Object.values(val)[index]} />
                       :
                       <TextField name={key} flag={key+index} InputProps={{readOnly: true,}} id="outlined-basic" readOnly size="small" label={key.charAt(0).toUpperCase() + key.slice(1)} variant="outlined"  value={Object.values(val)[index]} />
                     }
-                      <a> &nbsp;</a> 
                     </Typography>
                     ))}
                   </form>
