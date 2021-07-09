@@ -61,7 +61,8 @@ def drawThread():
 
 worker = threading.Thread(target=drawThread).start()
 app = Flask(__name__)
-CORS(app)
+cors = CORS(app)
+
 
 @app.route('/time')
 def get_current_time():
