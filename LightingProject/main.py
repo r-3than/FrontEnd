@@ -13,7 +13,7 @@ import threading
 import gpiozero 
 import sys
 from animations import *
-
+import concurrent.futures
 
 ModulesUsed =list(sys.modules.keys())                                       ##this block generates initalisers for all modules in the animations folder.
 AnimationModules = [item for item in ModulesUsed if "animations." in item]
@@ -59,7 +59,9 @@ def drawThread():
         fullAnimation.display()
 
 
-worker = threading.Thread(target=drawThread).start()
+#worker = threading.Thread(target=drawThread).start()
+with concurrent.futures.ProcessPoolExecutor(max_workers=1) as executor:
+    executor.sumbit(drawThread)
 app = Flask(__name__)
 cors = CORS(app)
 
