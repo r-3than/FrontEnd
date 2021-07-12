@@ -9,6 +9,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Grid from '@material-ui/core/Grid';
+import Slider from '@material-ui/core/Slider';
 import Toolbar from '@material-ui/core/Toolbar';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
@@ -25,7 +26,8 @@ import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import Box from '@material-ui/core/Box';
 import TextField from '@material-ui/core/TextField';
-
+import BrightnessLowIcon from '@material-ui/icons/BrightnessLow';
+import BrightnessHighIcon from '@material-ui/icons/BrightnessHigh';
 
 const url = "http://ethanpi:5000"
 
@@ -214,17 +216,16 @@ const LongMenu =(props) => {
 
 
 
-
-
-
-
-
-
 export default function App() {
   
   const classes = useStyles();
   const [isLoading, setLoading] = useState(true);
+  const [value, setValue] = React.useState(255);
   const [currentAni, setCurrentAni] = useState([{}]);
+  const handleChangeSlider = (event, newValue) => {
+    setValue(newValue);
+    fetch(url+"/setbrightness/"+newValue)
+  };
   const handleChange = (e,key,index) => {
     console.log(e.target.value); 
     let temp = currentAni;
@@ -289,6 +290,16 @@ export default function App() {
             
             <div className={classes.heroButtons}>
               <Grid container spacing={2} justify="center">
+                <Grid container spacing={2} justify="center"> 
+                <Grid item>
+                  <BrightnessLowIcon/>
+                </Grid>
+                <Grid item>
+                <Slider value={value} max={255} min={0} onChange={handleChangeSlider} aria-labelledby="continuous-slider" style={{width:200}} />
+                </Grid>
+                <Grid item><BrightnessHighIcon/></Grid>
+                </Grid>
+
                 <Grid item>
                 <BackButton/> 
                 </Grid>
@@ -303,13 +314,13 @@ export default function App() {
             </div>
           </Container>
         </div>
-        <Container className={classes.cardGrid} maxWidth="md">
-          <Grid container spacing={2}>
+        <Container className={classes.cardGrid} maxWidth="md" alignItems="center">
+          <Grid container spacing={2} justifyContent="center" justify="center">
             
             {currentAni.map((val,card) => (
-              <Grid item key={card} xs={6} >
+              <Grid item key={card} xs={6} class="cancelFlex">
                 <Card className={classes.card}>
-                  <CardContent className={classes.cardContent}>
+                  <CardContent className={classes.cardContent} style={{textAlign:"center"}}>
                     <form noValidate id={"card"+card}>
                     <Typography gutterBottom variant="h5" component="h2">
                     Position: {card}
@@ -318,9 +329,9 @@ export default function App() {
                     <Typography class="extraMarg">
                       
                       { key !== "type" ? 
-                      <TextField name={key} flag={key+index} id="outlined-basic" size="small" label={key.charAt(0).toUpperCase() + key.slice(1)} variant="outlined" onChange={(e) => handleChange(e,key,card)} value={Object.values(val)[index]} />
+                      <TextField fullWidth name={key} flag={key+index} id="outlined-basic" size="small" label={key.charAt(0).toUpperCase() + key.slice(1)} variant="outlined" onChange={(e) => handleChange(e,key,card)} value={Object.values(val)[index]} />
                       :
-                      <TextField name={key} flag={key+index} InputProps={{readOnly: true,}} id="outlined-basic" readOnly size="small" label={key.charAt(0).toUpperCase() + key.slice(1)} variant="outlined"  value={Object.values(val)[index]} />
+                      <TextField fullWidth name={key} flag={key+index} InputProps={{readOnly: true,}} id="outlined-basic" readOnly size="small" label={key.charAt(0).toUpperCase() + key.slice(1)} variant="outlined"  value={Object.values(val)[index]} />
                     }
                     </Typography>
                     ))}

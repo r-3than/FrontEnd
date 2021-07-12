@@ -19,6 +19,7 @@ class Animation:
 class FullAnimation:
     def __init__(self,strip,listOfAni):
         self.active = True
+        self.strip = strip
         self.animations = listOfAni
         self.OffAnimation = Animation(strip,"Off",None)
         self.currentAnimation = listOfAni[0]

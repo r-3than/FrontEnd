@@ -40,3 +40,8 @@
 .extraMarg {
   margin-top: 10px;
 }
+
+.cancelFlex{
+  flex-basis: revert;
+  padding: 10px;
+}

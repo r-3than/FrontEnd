@@ -68,6 +68,12 @@ cors = CORS(app)
 def get_current_time():
     return {'time': time.time()}
 
+
+@app.route('/setbrightness/<val>')
+def setbrightness(val):
+    fullAnimation.strip.setBrightness(val)
+    return {'success': 1}
+
 @app.route('/getanimations')
 def getanimations():
     return {'animations' : list(allAnimations.keys())}
