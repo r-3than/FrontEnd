@@ -63,7 +63,7 @@ def drawThread():
 def launch():
     with concurrent.futures.ProcessPoolExecutor(max_workers=1) as executor:
         executor.submit(drawThread)
-worker = threading.Thread(target=launch).start()
+worker = threading.Thread(target=drawThread).start()
 app = Flask(__name__)
 cors = CORS(app)
 
