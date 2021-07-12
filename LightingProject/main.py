@@ -71,6 +71,7 @@ def get_current_time():
 
 @app.route('/setbrightness/<val>')
 def setbrightness(val):
+    val = int(val)
     fullAnimation.strip.setBrightness(val)
     return {'success': 1}
 
