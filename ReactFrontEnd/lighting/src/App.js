@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import React, { useState, useEffect, Component} from 'react';
 import AppBar from '@material-ui/core/AppBar';
@@ -6,7 +5,6 @@ import Button from '@material-ui/core/Button';
 import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
-import CardMedia from '@material-ui/core/CardMedia';
 import CssBaseline from '@material-ui/core/CssBaseline';
 import Grid from '@material-ui/core/Grid';
 import Slider from '@material-ui/core/Slider';
@@ -21,13 +19,13 @@ import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
 import ArrowBackIosIcon from '@material-ui/icons/ArrowBackIos';
 import PublishIcon from '@material-ui/icons/Publish';
 import DeleteForeverIcon from '@material-ui/icons/DeleteForever';
-import IconButton from '@material-ui/core/IconButton';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import Box from '@material-ui/core/Box';
 import TextField from '@material-ui/core/TextField';
 import BrightnessLowIcon from '@material-ui/icons/BrightnessLow';
 import BrightnessHighIcon from '@material-ui/icons/BrightnessHigh';
+import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 
 const url = "http://ethanpi:5000"
 
@@ -104,25 +102,12 @@ class BackButton extends Component{
 }
 
 
-function Copyright() {
-  return (
-    <Typography variant="body2" color="textSecondary" align="center">
-      {'Copyright © '}
-      <Link color="inherit" href="https://material-ui.com/">
-        Your Website
-      </Link>{' '}
-      {new Date().getFullYear()}
-      {'.'}
-    </Typography>
-  );
-}
-
 const useStyles = makeStyles((theme) => ({
   icon: {
     marginRight: theme.spacing(2),
   },
   heroContent: {
-    backgroundColor: theme.palette.background.paper,
+    backgroundColor: '#3b3b3b',
     padding: theme.spacing(8, 0, 6),
   },
   heroButtons: {
@@ -144,7 +129,7 @@ const useStyles = makeStyles((theme) => ({
     flexGrow: 1,
   },
   footer: {
-    backgroundColor: theme.palette.background.paper,
+    backgroundColor: '#3b3b3b',
     padding: theme.spacing(6),
   },
   toolbarButtons: {
@@ -219,24 +204,25 @@ const LongMenu =(props) => {
 export default function App() {
   
   const classes = useStyles();
-  const [isLoading, setLoading] = useState(true);
   const [value, setValue] = React.useState(255);
   const [currentAni, setCurrentAni] = useState([{}]);
   const handleChangeSlider = (event, newValue) => {
+    console.log("hmm");
+    setValue(newValue);
+  };
+  const handleFinalChange = (event, newValue) => {
     setValue(newValue);
     fetch(url+"/setbrightness/"+newValue)
   };
   const handleChange = (e,key,index) => {
-    console.log(e.target.value); 
     let temp = currentAni;
     temp[index][key] = e.target.value
     setCurrentAni([...temp])
   };
-  useEffect(() => {fetch(url+'/getcurrentani').then(response => response.json()).then(data => {setCurrentAni(data.animations); setLoading(false);   }); }, []);
+  useEffect(() => {fetch(url+'/getcurrentani').then(response => response.json()).then(data => {setCurrentAni(data.animations);  }); }, []);
   
   function addItem(item) {
-    fetch(url+'/addanimation/'+item).then(response => {response.json(); fetch(url+'/getcurrentani').then(response => response.json()).then(data => {setCurrentAni(data.animations); setLoading(false); console.log(data.animations);  }); })
-    //fetch(url+'/getcurrentani').then(response => response.json()).then(data => {setCurrentAni(data.animations); setLoading(false); console.log(data.animations);  }); 
+    fetch(url+'/addanimation/'+item).then(response => {response.json(); fetch(url+'/getcurrentani').then(response => response.json()).then(data => {setCurrentAni(data.animations); console.log(data.animations);  }); })
     setCurrentAni([...currentAni])
   }
   function removeItem(index) {
@@ -245,7 +231,7 @@ export default function App() {
 
       fetch(url+'/removeanimation/'+index).then(response => response.json())
       let temp1 = currentAni;
-      let temp = temp1.splice(index,1)[0];
+      let temp = temp1.splice(index,1)[0]; //removed item
       
       setCurrentAni([...temp1])
     }
@@ -267,9 +253,16 @@ export default function App() {
   
   fetch(url+'/editanimation/'+index, requestOptions).then(response => response.json())
   }
+  const theme = createMuiTheme({
+    palette: {
+      type: 'dark',
+    },
+  });
   return (
+    <MuiThemeProvider theme={theme}>
+
     <React.Fragment>
-      <CssBaseline />
+    <CssBaseline />
       <AppBar position="relative">
         <Toolbar>
           <LongMenu currItem="Animation" addItem={addItem}/>
@@ -284,7 +277,7 @@ export default function App() {
         
         <div className={classes.heroContent}>
           <Container maxWidth="sm">
-            <Typography component="h1" variant="h2" align="center" color="textPrimary" gutterBottom>
+            <Typography component="h1" variant="h2" align="center" gutterBottom>
             Lighting control  
             </Typography>
             
@@ -295,7 +288,8 @@ export default function App() {
                   <BrightnessLowIcon/>
                 </Grid>
                 <Grid item>
-                <Slider value={value} max={255} min={0} onChange={handleChangeSlider} aria-labelledby="continuous-slider" style={{width:200}} />
+                
+                <Slider value={value} max={255} min={0} onChangeCommitted={handleFinalChange} onChange={handleChangeSlider} aria-labelledby="continuous-slider" style={{width:200}} />
                 </Grid>
                 <Grid item><BrightnessHighIcon/></Grid>
                 </Grid>
@@ -362,5 +356,7 @@ export default function App() {
 
       </footer>
     </React.Fragment>
+    
+    </MuiThemeProvider>
   );
 }
