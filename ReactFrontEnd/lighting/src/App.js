@@ -176,7 +176,7 @@ const LongMenu =(props) => {
         aria-haspopup="true"
         onClick={handleClick}
       >
-        <Box overflow="hidden">{selectedItem}</Box>
+        <Box overflow="hidden" style={{width:170}}>{selectedItem}</Box>
       </Button>
       <Menu
         id="long-menu"
@@ -192,8 +192,8 @@ const LongMenu =(props) => {
         }}
       >
         {options.map((option) => (
-          <MenuItem noWrap key={option} selected={option === selectedItem} onClick={() => handleClose(option)}>
-            <Typography variant="inherit" noWrap>{option}</Typography>
+          <MenuItem noWrap key={option} selected={option === selectedItem} onClick={() => handleClose(option)} >
+            <Typography variant="inherit" noWrap >{option}</Typography>
           </MenuItem>
         ))}
       </Menu>
@@ -290,15 +290,17 @@ export default function App() {
             Lighting control  
             </Typography>
             
+            
             <div className={classes.heroButtons}>
               <Grid container spacing={2} justify="center" >
                 <Grid container spacing={2} justify="center" > 
                 <Grid item>
                   <BrightnessLowIcon/>
                 </Grid>
+                
                 <Grid item >
-                <Slider  hidden disableStylesGeneration value={value} max={255} min={0}  onChange={handleChangeSlider}  style={{width:200 ,display: 'none'}} />
-                <Slider disableStylesGeneration  max={255} min={0} onChangeCommitted={handleFinalChange}  style={{width:200}} />
+                <Slider max={255} min={0} onChangeCommitted={handleFinalChange}  style={{width:200}} />
+                
                 </Grid>
                 <Grid item><BrightnessHighIcon/></Grid>
                 </Grid>

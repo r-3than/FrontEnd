@@ -1,0 +1,1 @@
+rm -rf ./android && npm run build && ionic capacitor add android && npx cap open android
