@@ -24,6 +24,7 @@ import MenuItem from '@material-ui/core/MenuItem';
 import Box from '@material-ui/core/Box';
 import TextField from '@material-ui/core/TextField';
 import BrightnessLowIcon from '@material-ui/icons/BrightnessLow';
+import { TableCell } from '@material-ui/core';
 import BrightnessHighIcon from '@material-ui/icons/BrightnessHigh';
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 
@@ -108,6 +109,7 @@ const useStyles = makeStyles((theme) => ({
   },
   heroContent: {
     backgroundColor: '#3b3b3b',
+    color: '#efefff',
     padding: theme.spacing(8, 0, 6),
   },
   heroButtons: {
@@ -258,20 +260,27 @@ export default function App() {
       type: 'dark',
     },
   });
+  const theme2 = {
+    background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
+  };
   return (
+    
     <MuiThemeProvider theme={theme}>
-
-    <React.Fragment>
+    <React.Fragment >
     <CssBaseline />
+
       <AppBar position="relative">
+      
         <Toolbar>
-          <LongMenu currItem="Animation" addItem={addItem}/>
+          <LongMenu currItem="Animation" addItem={addItem} className/>
           <div className={classes.toolbarButtons}>
           <Button> <PublishIcon/> </Button>
           </div>
         </Toolbar>
         
+        
       </AppBar>
+
       <main>
         <a> &nbsp;</a>
         
@@ -282,14 +291,14 @@ export default function App() {
             </Typography>
             
             <div className={classes.heroButtons}>
-              <Grid container spacing={2} justify="center">
-                <Grid container spacing={2} justify="center"> 
+              <Grid container spacing={2} justify="center" >
+                <Grid container spacing={2} justify="center" > 
                 <Grid item>
                   <BrightnessLowIcon/>
                 </Grid>
-                <Grid item>
-                
-                <Slider value={value} max={255} min={0} onChangeCommitted={handleFinalChange} onChange={handleChangeSlider} aria-labelledby="continuous-slider" style={{width:200}} />
+                <Grid item >
+                <Slider  hidden disableStylesGeneration value={value} max={255} min={0}  onChange={handleChangeSlider}  style={{width:200 ,display: 'none'}} />
+                <Slider disableStylesGeneration  max={255} min={0} onChangeCommitted={handleFinalChange}  style={{width:200}} />
                 </Grid>
                 <Grid item><BrightnessHighIcon/></Grid>
                 </Grid>
@@ -356,7 +365,7 @@ export default function App() {
 
       </footer>
     </React.Fragment>
-    
     </MuiThemeProvider>
+    
   );
 }

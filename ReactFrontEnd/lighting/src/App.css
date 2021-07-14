@@ -45,3 +45,8 @@
   flex-basis: revert;
   padding: 10px;
 }
+
+.dark1 {
+  background-color: #0f0f0f;
+  color:lightblue;
+}
