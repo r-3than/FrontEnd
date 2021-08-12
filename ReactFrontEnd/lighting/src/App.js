@@ -28,7 +28,7 @@ import { TableCell } from '@material-ui/core';
 import BrightnessHighIcon from '@material-ui/icons/BrightnessHigh';
 import { MuiThemeProvider, createMuiTheme } from '@material-ui/core/styles';
 
-const url = "http://ethanpi:5000"
+const url = "https://ethanpi:5000";
 
 class ToggleButton extends Component{
   
