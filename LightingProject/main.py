@@ -150,4 +150,4 @@ def backer():
         return {'success': 'false'}
 
 
-app.run(ssl_context='adhoc',host="0.0.0.0")
+app.run(host="0.0.0.0")
