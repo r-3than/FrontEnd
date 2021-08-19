@@ -1,0 +1,1319 @@
+1629124048581	geckodriver	INFO	Listening on 127.0.0.1:58599
+1629124049586	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileDajNM2"
+1629124050643	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileDajNM2/search.json.mozlz4", (void 0)))
+1629124052402	Marionette	INFO	Listening on port 43683
+1629124052509	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3 line 1 > eval, line 1: unreachable code after return statement
+1629124055604	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1629124070982	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1629124072167	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1629124074055	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1629124081753	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1629124083573	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1629124085935	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1629124087081	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1629126376496	geckodriver	INFO	Listening on 127.0.0.1:46551
+1629126376501	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileaSJEVY"
+1629126377004	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileaSJEVY/search.json.mozlz4", (void 0)))
+1629126378471	Marionette	INFO	Listening on port 39355
+1629126378520	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3 line 1 > eval, line 1: unreachable code after return statement
+1629126379652	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: "Resource  of root-node was not found."
+1629126595132	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: "Resource  of root-node was not found."
+1629126596710	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: "Resource  of root-node was not found."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+1629126607977	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: "Resource  of root-node was not found."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+1629126609304	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: "Resource  of root-node was not found."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+1629126643761	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.warn: "Resource  of root-node was not found."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+1629126771039	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.warn: "Resource  of root-node was not found."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+1629126773802	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: "Resource  of root-node was not found."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+1629126815007	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: "Resource  of root-node was not found."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+1629126827682	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: "Resource  of root-node was not found."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+1629126882598	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: "Resource  of root-node was not found."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+1629126885392	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: "Resource  of root-node was not found."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+1629126898432	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: "Resource  of root-node was not found."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+console.warn: "Resource  of root-node was not found."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+1629126933672	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: "Resource  of root-node was not found."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+console.warn: "Resource  of root-node was not found."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Resource  of root-node was not found."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+1629129363914	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1629129368858	Marionette	INFO	Stopped listening on port 39355
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1629205110462	geckodriver	INFO	Listening on 127.0.0.1:53055
+1629205111464	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile36Mvm8"
+1629205112361	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile36Mvm8/search.json.mozlz4", (void 0)))
+1629205114604	Marionette	INFO	Listening on port 33741
+1629205114691	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3 line 1 > eval, line 1: unreachable code after return statement
+1629205118295	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+console.warn: "Resource  of root-node was not found."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+1629205275495	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: "Resource  of root-node was not found."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+1629205277522	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: "Resource  of root-node was not found."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+console.warn: "Resource  of root-node was not found."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+1629205294226	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: "Resource  of root-node was not found."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+console.warn: "Resource  of root-node was not found."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+console.warn: "Resource  of root-node was not found."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+1629205321415	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: "Resource  of root-node was not found."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+console.warn: "Resource  of root-node was not found."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+1629205350834	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: "Resource  of root-node was not found."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.warn: "Resource  of root-node was not found."
+console.warn: "Failed to enumerate sessionStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate localStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate CacheStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1269822584, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1269822584, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1269822584, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1269822584 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=1&cb=1269822584 line 1 > eval, line 1: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+console.warn: "Resource  of root-node was not found."
+console.warn: "Failed to enumerate sessionStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate localStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate CacheStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3 line 1 > eval, line 1: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+console.error: "Task cancelled"
+console.warn: "Resource  of root-node was not found."
+console.warn: "Failed to enumerate sessionStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate localStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate CacheStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3 line 1 > eval, line 1: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+1629205450744	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+console.error: "Task cancelled"
+console.warn: "Failed to enumerate sessionStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate localStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate CacheStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3 line 1 > eval, line 1: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "can't access dead object"
+console.error: (new TypeError("can't access dead object", "resource://devtools/shared/inspector/css-logic.js", 493))
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.error: (new Error("Protocol error (TypeError): can't access dead object from: server0.conn0.child4/pagestyle24 (resource://devtools/shared/inspector/css-logic.js:493:7)", "resource://devtools/shared/protocol/Front.js", 362))
+console.error: (new Error("Protocol error (TypeError): can't access dead object from: server0.conn0.child4/pagestyle24 (resource://devtools/shared/inspector/css-logic.js:493:7)", "resource://devtools/shared/protocol/Front.js", 362))
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+console.warn: "Resource  of root-node was not found."
+console.warn: "Failed to enumerate sessionStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate localStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate CacheStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3 line 1 > eval, line 1: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+console.error: "Task cancelled"
+console.warn: "Resource  of root-node was not found."
+console.warn: "Failed to enumerate sessionStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate localStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate CacheStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3 line 1 > eval, line 1: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+console.error: "Task cancelled"
+console.warn: "Resource  of root-node was not found."
+console.warn: "Failed to enumerate sessionStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate localStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate CacheStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3 line 1 > eval, line 1: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+console.error: "Task cancelled"
+console.warn: "Resource  of root-node was not found."
+console.warn: "Failed to enumerate sessionStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate localStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate CacheStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3 line 1 > eval, line 1: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+console.error: "Task cancelled"
+console.warn: "Resource  of root-node was not found."
+console.warn: "Failed to enumerate sessionStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate localStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate CacheStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3 line 1 > eval, line 1: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+console.error: "Task cancelled"
+console.warn: "Resource  of root-node was not found."
+console.warn: "Failed to enumerate sessionStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate localStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate CacheStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3 line 1 > eval, line 1: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+console.error: "Task cancelled"
+console.warn: "Resource  of root-node was not found."
+console.warn: "Failed to enumerate sessionStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate localStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate CacheStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3 line 1 > eval, line 1: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+console.error: "Task cancelled"
+console.warn: "Resource  of root-node was not found."
+console.warn: "Failed to enumerate sessionStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate localStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate CacheStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3 line 1 > eval, line 1: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+console.warn: "Resource  of root-node was not found."
+console.warn: "Failed to enumerate sessionStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate localStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate CacheStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+console.error: "Task cancelled"
+console.warn: "Resource  of root-node was not found."
+console.warn: "Failed to enumerate sessionStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate localStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate CacheStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3 line 1 > eval, line 1: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+console.error: "Task cancelled"
+console.warn: "Resource  of root-node was not found."
+console.warn: "Failed to enumerate sessionStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate localStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate CacheStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+console.error: "Task cancelled"
+console.warn: "Resource  of root-node was not found."
+console.warn: "Failed to enumerate sessionStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate localStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate CacheStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+console.error: "Task cancelled"
+console.warn: "Resource  of root-node was not found."
+console.warn: "Failed to enumerate sessionStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate localStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate CacheStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3 line 1 > eval, line 1: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+console.warn: "Resource  of root-node was not found."
+console.warn: "Failed to enumerate sessionStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate localStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate CacheStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3 line 1 > eval, line 1: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+console.error: "Task cancelled"
+console.warn: "Resource  of root-node was not found."
+console.warn: "Failed to enumerate sessionStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate localStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate CacheStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3 line 1 > eval, line 1: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+console.error: "Task cancelled"
+console.warn: "Resource  of root-node was not found."
+console.warn: "Failed to enumerate sessionStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate localStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate CacheStorage for host https://driverpracticaltest.dvsa.gov.uk: SecurityError: The operation is insecure."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3 line 1 > eval, line 1: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Resource  of root-node was not found."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+1629205499374	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.warn: "Resource  of root-node was not found."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+console.warn: "Resource  of root-node was not found."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+1629205549101	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: "Resource  of root-node was not found."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+1629205892101	Marionette	INFO	Stopped listening on port 33741
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: , line 0: TypeError: NetworkError when attempting to fetch resource.
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1629205895990	geckodriver	INFO	Listening on 127.0.0.1:56307
+1629205895994	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileWTN6TB"
+1629205896639	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileWTN6TB/search.json.mozlz4", (void 0)))
+1629205898069	Marionette	INFO	Listening on port 44289
+1629205898119	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1629205977192	geckodriver	INFO	Listening on 127.0.0.1:58637
+1629205977197	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileeTfkgL"
+1629205977693	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileeTfkgL/search.json.mozlz4", (void 0)))
+1629205979397	Marionette	INFO	Listening on port 41249
+1629205979430	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1629205994764	Marionette	INFO	Stopped listening on port 41249
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1629205996521	geckodriver	INFO	Listening on 127.0.0.1:56595
+1629205996525	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilepAItFl"
+1629205996973	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilepAItFl/search.json.mozlz4", (void 0)))
+1629205998863	Marionette	INFO	Listening on port 34835
+1629205998947	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1629206012054	geckodriver	INFO	Listening on 127.0.0.1:44593
+1629206012058	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileHESGRA"
+1629206012525	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileHESGRA/search.json.mozlz4", (void 0)))
+1629206014827	Marionette	INFO	Listening on port 41181
+1629206014885	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1629206019676	Marionette	INFO	Stopped listening on port 34835
+1629206019677	Marionette	INFO	Stopped listening on port 44289
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1629206019712	Marionette	INFO	Stopped listening on port 41181
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1629206035352	geckodriver	INFO	Listening on 127.0.0.1:37455
+1629206035356	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilegf4cnd"
+1629206035921	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilegf4cnd/search.json.mozlz4", (void 0)))
+1629206037851	Marionette	INFO	Listening on port 36757
+1629206037881	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+console.warn: "Resource  of root-node was not found."
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=13&cb=193860117, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=13&cb=193860117, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=13&cb=193860117, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=13&cb=193860117 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3&ns=13&cb=193860117 line 1 > eval, line 1: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1629206210610	geckodriver	INFO	Listening on 127.0.0.1:60069
+1629206210615	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileyikHxI"
+1629206211124	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileyikHxI/search.json.mozlz4", (void 0)))
+1629206212622	Marionette	INFO	Listening on port 45647
+1629206212739	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1629206230056	Marionette	INFO	Stopped listening on port 45647
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1629206237877	geckodriver	INFO	Listening on 127.0.0.1:58189
+1629206237882	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZoj8ox"
+1629206238522	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileZoj8ox/search.json.mozlz4", (void 0)))
+1629206240485	Marionette	INFO	Listening on port 34557
+1629206240507	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1629206269452	geckodriver	INFO	Listening on 127.0.0.1:39477
+1629206269457	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRnu2fw"
+1629206269956	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileRnu2fw/search.json.mozlz4", (void 0)))
+1629206271619	Marionette	INFO	Listening on port 36865
+1629206271677	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1629206287040	Marionette	INFO	Stopped listening on port 36865
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1629206309275	geckodriver	INFO	Listening on 127.0.0.1:44835
+1629206309281	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2fhlsd"
+1629206309824	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofile2fhlsd/search.json.mozlz4", (void 0)))
+1629206311497	Marionette	INFO	Listening on port 36765
+1629206311603	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: services.settings: 
+  main/doh-providers Signature failed  InvalidSignatureError: Invalid content signature (main/doh-providers)
+console.error: services.settings: 
+  main/doh-providers local data was corrupted
+console.warn: services.settings: main/doh-providers Signature verified failed. Retry from scratch
+console.error: services.settings: 
+  main/doh-config Signature failed  InvalidSignatureError: Invalid content signature (main/doh-config)
+console.error: services.settings: 
+  main/doh-config local data was corrupted
+console.warn: services.settings: main/doh-config Signature verified failed. Retry from scratch
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.warn: "Resource  of root-node was not found."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+1629206864123	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: "Resource  of root-node was not found."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Resource  of root-node was not found."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3 line 1 > eval, line 1: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Resource  of root-node was not found."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Resource  of root-node was not found."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Resource  of root-node was not found."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Resource  of root-node was not found."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+1629206966285	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+console.warn: "Resource  of root-node was not found."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Resource  of root-node was not found."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Resource  of root-node was not found."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Resource  of root-node was not found."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3 line 1 > eval, line 1: unreachable code after return statement
+JavaScript warning: https://driverpracticaltest.dvsa.gov.uk/_Incapsula_Resource?SWJIYLWA=719d34d31c8e3a6e6fffd425f7e032f3 line 1 > eval, line 1: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Resource  of root-node was not found."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Resource  of root-node was not found."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.error: "Task cancelled"
+console.warn: "Resource  of root-node was not found."
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1888: TypeError: can't access dead object
+console.warn: "Already stopped listening to websocket events for this window."
+console.warn: "Already stopped listening to server sent events for this window."
+1629207018543	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.

@@ -94,6 +94,7 @@ def removeanimation(index):
     try : index = int(index)
     except: return {'success': 'false'}
     if len(fullAnimation.animations) > 1:
+        fullAnimation.skip()
         fullAnimation.animations.pop(index)
         return {'success': 'true'}
     else: return {'success': 'false'}
